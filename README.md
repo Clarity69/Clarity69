@@ -2,7 +2,8 @@
 
 ###
 
-<p align="left">My name is ... and I'm a ..., from ....</p>
+<p align="left">My name is Taro and I'm a informatics engineering
+students, from Indonesia(ID)</p>
 
 ###
 
@@ -10,7 +11,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since ...<br>📚 I'm currently learning Python<br>🎯 Goals: get a job<br>🎲 Fun fact: I love cooking</p>
+<p align="left">✨ Creating bugs since 2020<br>📚 I'm currently learning Python<br>🎯 Goals: get a job<br>🎲 Fun fact: I love cooking</p>
 
 ###
 
