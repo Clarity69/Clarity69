@@ -23,7 +23,7 @@
 
 ###
 
-<p align="left">I'm Kintaro from Indonesia(ID)<br><br>- 🔭 I’m a student at some college<br>- 📚 I'm currently learning Python<br>- ⚡ In my free time I cook</p>
+<p align="left">I'm Kintaro from Indonesia(ID)<br><br>- 🔭 I’m a college student<br>- 📚 I'm currently learning Python<br>- ⚡ In my free time I cook</p>
 
 ###
 
