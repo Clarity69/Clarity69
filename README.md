@@ -7,23 +7,17 @@
   </a>
 </div>
 
-```zsh
-#!/bin/zsh
-
-typeset -A me
-typeset -a languages hobbies
-
-me[name]="Kintaro"
-me[role]="Software Engineer/College Student"
-
-languages=("py" "c++" "js" "css")
-hobbies=("cooking" "personal project" "ricing")
-
-say_hi() {
-    print "Hello There 🎈"
-}
-
-say_hi
+```text
+.---.         kintaro@github
+      /     \        --------------
+      \.@-@./        OS       : Arch Linux x86_64
+      /`\_/`\        Role     : Software Engineer / College Student
+     //  _  \\       Languages: py, c++, js, css
+    | \     / |      Hobbies  : cooking, personal project, ricing
+   / \ \___/ / \     Shell    : zsh
+  /   \_____/   \    
+  \_.-'     '-._/    $ kintaro --say-hi
+                     > Hello There 🎈
 ```
 
 <div align="center">
