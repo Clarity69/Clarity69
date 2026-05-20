@@ -1,31 +1,29 @@
 <div align="center">
   <a href="https://id.linkedin.com/">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"/>
   </a>
-  <a href="instagram.com">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
+  <a href="https://www.instagram.com/taroqi_/">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"/>
   </a>
 </div>
 
-```python
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+```zsh
+#!/bin/zsh
 
+typeset -A me
+typeset -a languages hobbies
 
-class SoftwareEngineer:
+me[name]="Kintaro"
+me[role]="Software Engineer/College Student"
 
-    def __init__(self):
-        self.name = "Kintaro"
-        self.role = "Software Engineer/College Student"
-        self.language_ = ["py", "c++", "js", "css"]
-        self.hobby = ["cooking", "personal project", "ricing"]
+languages=("py" "c++" "js" "css")
+hobbies=("cooking" "personal project" "ricing")
 
-    def say_hi(self):
-        print("Hello There 🎈")
+say_hi() {
+    print "Hello There 🎈"
+}
 
-
-me = SoftwareEngineer()
-me.say_hi()
+say_hi
 ```
 
 <div align="left">
