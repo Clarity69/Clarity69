@@ -8,7 +8,7 @@
 </div>
 
 ```text
-.---.         kintaro@github
+       .---.         kintaro@github
       /     \        --------------
       \.@-@./        OS       : Arch Linux x86_64
       /`\_/`\        Role     : Software Engineer / College Student
