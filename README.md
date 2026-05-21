@@ -26,6 +26,6 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Clarity69/Clarity69/stats-output/stats.svg" height="150" alt="stats graph"  />
-  <img src="https://raw.githubusercontent.com/Clarity69/Clarity69/languages-output/languages.svg" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=taroqi&show_icons=true&theme=tokyonight&count_private=true" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=taroqi&layout=compact&theme=tokyonight&hide=html,css" height="150" alt="languages graph" />
 </div>
