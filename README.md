@@ -26,9 +26,7 @@
 </div>
 
 <div align="center">
-
-|  **Git Profile Stats** |  **Top Languages Used** |
-| :---: | :---: |
-| <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Clarity69&show_icons=true&theme=tokyonight&count_private=true" height="165" alt="stats graph" /> | <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Clarity69&layout=compact&theme=tokyonight&hide=html,css" height="165" alt="languages graph" /> |
-
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Clarity69&show_icons=true&theme=tokyonight&count_private=true" height="145" alt="stats graph" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Clarity69&layout=compact&theme=tokyonight&hide=html,css" height="145" alt="languages graph" />
 </div>
