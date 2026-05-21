@@ -24,3 +24,8 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo" />
 </div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Clarity69/Clarity69/stats-output/stats.svg" height="150" alt="stats graph"  />
+  <img src="https://raw.githubusercontent.com/Clarity69/Clarity69/languages-output/languages.svg" height="150" alt="languages graph"  />
+</div>
