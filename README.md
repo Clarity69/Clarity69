@@ -14,7 +14,7 @@
       /`\_/`\        Role     : Software Engineer / College Student
      //  _  \\       Languages: py, c++, js, html, css
     | \     / |      Hobbies  : cooking, personal project, ricing
-   / \ \___/ / \     Shell    : zsh
+   / \ \___/ / \     Shell    : fish
   /   \_____/   \    
   \_.-'     '-._/    $ kintaro --say-hi
                      > Hello There 🎈
