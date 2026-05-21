@@ -1,36 +1,45 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the workflow will run
+name: Metrics
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
+  # Terpicu otomatis setiap Anda melakukan push ke branch main
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches: ["main"]
+  # Terpicu otomatis setiap 24 jam sekali (pukul 00:00 UTC)
+  schedule:
+    - cron: "0 0 * * *"
+  # Memungkinkan Anda menjalankan workflow secara manual dari tombol di tab Actions
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  github-metrics:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    permissions:
+      contents: write
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      # Langkah 1: Menghasilkan Grafik Statistik Utama (stats.svg)
+      - name: Generate Main Stats
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output_action: push
+          committer_branch: stats-output
+          filename: stats.svg
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Makassar
+          theme: tokyonight
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      # Langkah 2: Menghasilkan Grafik Bahasa Paling Sering Digunakan (languages.svg)
+      - name: Generate Top Languages
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          output_action: push
+          committer_branch: languages-output
+          filename: languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: html, css  # Menyembunyikan HTML/CSS agar kalkulasi bahasa logika lebih presisi
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          config_timezone: Asia/Jakarta
+          theme: tokyonight
