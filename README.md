@@ -25,8 +25,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo" />
 </div>
 
-<div align="center">
+<!--<div align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Clarity69&show_icons=true&theme=tokyonight&count_private=true" height="145" alt="stats graph" />
   <br>
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Clarity69&layout=compact&theme=tokyonight&hide=html,css" height="145" alt="languages graph" />
-</div>
+</div>--!>
