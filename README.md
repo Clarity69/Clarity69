@@ -5,13 +5,6 @@
 </picture>
 
 <p>
-  I'm Taro — an informatics student building web apps with React &amp; Laravel,
-  and tinkering with Linux (Hyprland + Quickshell) and my homelab.
-  🌐 <a href="https://myporto-mocha-ten.vercel.app/">Portfolio</a> ·
-  💼 <a href="https://www.linkedin.com/in/ahmad-taroqi">LinkedIn</a>
-</p>
-
-<p>
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img alt="Laravel" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
@@ -23,11 +16,3 @@
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
-
-<p><sub>Currently exploring: Next.js · Flutter · TypeScript</sub></p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/clarity69/clarity69/pacman-output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/clarity69/clarity69/pacman-output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man eating my contribution graph" src="https://raw.githubusercontent.com/clarity69/clarity69/pacman-output/pacman-contribution-graph.svg">
-</picture>
