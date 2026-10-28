@@ -1,32 +1,27 @@
-name: Generate arcade animation
+name: Generate Pac-Man contribution graph
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    # Tiap hari 22:43 UTC = 06:43 WITA (sebelum kartu ASCII di 07:17 WITA)
+    - cron: "43 22 * * *"
+  workflow_dispatch: # tombol "Run workflow" manual di tab Actions
 
-  workflow_dispatch:
-
-  push:
-    branches:
-    - main
+permissions:
+  contents: write
 
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 5
 
     steps:
-      - name: generate pacman-contribution-graph.svg
+      - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: ${{ clarity69 }}
-          games: 'pacman'
+          github_user_name: ${{ github.repository_owner }}
 
-
-      - name: push pacman-contribution-graph.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Push SVG to the pacman-output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: pacman-output
           build_dir: dist
