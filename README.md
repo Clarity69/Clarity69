@@ -4,16 +4,6 @@
   <img alt="Clarity69's GitHub profile" src="dark_mode.svg" />
 </picture>
 
-###  About me
- 
-```yaml
-name:      Ahmad Taroqi (Taro)
-study:     Informatics @ STITEK Bontang
-building:  web apps with React & Laravel
-tinkering: Linux (Hyprland + Quickshell), homelab
-exploring: Next.js · Flutter · TypeScript
-```
-
 <p>
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
