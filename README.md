@@ -4,7 +4,7 @@
   <img alt="Clarity69's GitHub profile" src="dark_mode.svg" />
 </picture>
 
-### 🧑‍💻 About me
+###  About me
  
 ```yaml
 name:      Ahmad Taroqi (Taro)
