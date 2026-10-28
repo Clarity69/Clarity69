@@ -4,7 +4,7 @@
   <img alt="Clarity69's GitHub profile" src="dark_mode.svg" />
 </picture>
 
-<br>
+<br><br>
 
 <p>
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
@@ -18,6 +18,8 @@
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
+
+<br><br>
 
 <div align="center">
 <picture>
