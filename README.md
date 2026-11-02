@@ -4,11 +4,9 @@
   <img alt="Clarity69's GitHub profile" src="dark_mode.svg" />
 </picture>
 
-
 <p align="center">
-  <img alt="JavaScript, React, Laravel, PHP, MySQL, Python, Qt/QML, Linux, Arch, Docker, Git, Vite" src="https://skillicons.dev/icons?i=js,react,laravel,php,mysql,python,qt,linux,arch,docker,git,vite&perline=12" />
+  <img alt="JavaScript, React, Laravel, PHP, Supabase, Python, Qt/QML, Linux, Arch, Docker, Git, Vite" src="https://skillicons.dev/icons?i=js,react,laravel,php,supabase,python,qt,linux,arch,docker,git,vite&perline=12" />
 </p>
-
 
 <div align="center">
 <picture>
